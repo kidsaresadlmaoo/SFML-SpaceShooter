@@ -2,7 +2,7 @@
 #define asteroid_h
 #include "Entity.h"
 
-class asteroid : public Entity
+class Asteroid : public Entity
 {
 	static sf::Texture texture_;
 

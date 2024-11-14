@@ -17,3 +17,24 @@ void Entity::Move(float dt, const sf::Vector2u& window_size)
 		is_dead_ = true;
 	}
 }
+
+bool Entity::Intersects(sf::FloatRect hitbox)
+{
+	return HitBox().intersects(hitbox);
+}
+
+sf::FloatRect Entity::HitBox() const
+{
+	sf::FloatRect hit_box = sprite_.getGlobalBounds();
+	
+	hit_box.left += getPosition().x;
+	hit_box.top += getPosition().y;
+
+	return hit_box;
+}
+
+void Entity::draw(sf::RenderTarget& target, sf::RenderStates states) const
+{
+	states.transform *= getTransform();
+	target.draw(sprite_, states);
+}

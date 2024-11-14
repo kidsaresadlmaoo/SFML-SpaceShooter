@@ -2,6 +2,14 @@
 #include "asteroid.h"
 #include <SFML/Graphics/Texture.hpp>
 
+
+sf::Texture Asteroid::texture_;
+
+Asteroid::Asteroid()
+{
+
+}
+
 /*
 Random :
 

@@ -33,6 +33,12 @@
     <ClCompile Include="Entity.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="spaceship.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="projectiles.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game.h">
@@ -51,6 +57,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="spaceship.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

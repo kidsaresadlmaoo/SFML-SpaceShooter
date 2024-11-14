@@ -10,7 +10,7 @@
 class asteroid_manager : public sf::Drawable
 {
 private:
-	std::vector<asteroid> projectiles_;
+	std::vector<Asteroid> projectiles_;
 	sf::Clock timer_;
 	float dt = 0;
 

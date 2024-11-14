@@ -132,7 +132,9 @@
     <ClCompile Include="Entity.cc" />
     <ClCompile Include="game.cc" />
     <ClCompile Include="ProjectileManager.cc" />
+    <ClCompile Include="projectiles.cc" />
     <ClCompile Include="SFML-SpaceShooter.cpp" />
+    <ClCompile Include="spaceship.cc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="asteroid.h" />
@@ -141,6 +143,7 @@
     <ClInclude Include="game.h" />
     <ClInclude Include="ProjectileManager.h" />
     <ClInclude Include="projectiles.h" />
+    <ClInclude Include="spaceship.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
